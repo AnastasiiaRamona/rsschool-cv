@@ -28,3 +28,21 @@ Node.js + TypeScript/JavaScript; HTML, Cascading Style Sheets (CSS), React
 
 ## Skills:
 TypeScript/JavaScript · Git · GitHub · Object-Oriented Programming (OOP) · SOLID Design Principles · English language (B2)
+
+## Employment history:
+* IIC «Femida», Russian Federation,
+    + __Lawyer__ _(remotely), Aug 2021 – now_
+* Yaroslavl Arbitral Court, Russian Federation,
+    + __Judge’s assistant__, _Sep 2018 – Jul 2021_
+
+## Code Example
+```
+function dateSample(sampleActivity) {
+  const convertedSampleActivity = Number(sampleActivity);
+  if ((typeof sampleActivity === `string`) & !isNaN(convertedSampleActivity) & convertedSampleActivity !== 0) {
+    const result = Math.log(MODERN_ACTIVITY / convertedSampleActivity) / (0.693 / HALF_LIFE_PERIOD);
+    return Math.ceil(result);
+  }
+  return false; 
+}
+```
