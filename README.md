@@ -1,2 +1,2 @@
-# rsschool-cv
-Repository for the task `CV#1. Markdown &amp; Git`, RSSchool
+https://AnastasiiaRamona.github.io/rsschool-cv/cv
+https://AnastasiiaRamona.github.io/rsschool-cv/

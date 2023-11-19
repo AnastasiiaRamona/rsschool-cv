@@ -1,0 +1,31 @@
+* { 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+}
+	/* sets the body height of the browser, so that backgrounds and div heights work correctly */
+	
+body, ul, ol, dl {
+	margin: 0;
+}
+article, aside, audio, 
+footer, header, nav, section, video {
+	display: block; 
+	}
+	
+	/* ensures that older browsers will display HTML5 elements correctly */
+	
+input[type="submit"]::-moz-focus-inner, 
+	input[type="button"]::-moz-focus-inner {
+		border : 0px;
+	}
+	/* removes the inner border effect from focused buttons for form elements in Firefox */
+	
+input[type="search"] { 
+	-webkit-appearance: textfield;
+} 
+input[type="submit"] { 
+	-webkit-appearance:none;
+}
+	/* removes the OS X appearance from HTML5 search inputs and submit buttons when viewed in Safari */
